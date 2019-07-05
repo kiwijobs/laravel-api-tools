@@ -1,5 +1,5 @@
 {
-    "name": "joselfonseca/laravel-api-tools",
+    "name": "kiwijobs/laravel-api-tools",
     "description": "Some tools for Laravel API development, nothing really new, just wrappers and helper stuff",
     "license": "MIT",    
     "authors": [

@@ -4,7 +4,7 @@ namespace Joselfonseca\LaravelApiTools\Traits;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
-use League\Fractal\Serializer\JsonApiSerializer;
+use League\Fractal\Serializer\DataArraySerializer;
 use League\Fractal\Serializer\SerializerAbstract;
 use League\Fractal\Pagination\IlluminatePaginatorAdapter;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
@@ -24,7 +24,7 @@ trait FractalAbleTrait
      */
     public function setSerializer()
     {
-        return app(JsonApiSerializer::class);
+        return app(DataArraySerializer::class);
     }
 
 
